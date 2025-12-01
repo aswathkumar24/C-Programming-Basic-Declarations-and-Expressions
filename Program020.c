@@ -35,6 +35,6 @@ int main()
     }
     else
     {
-        printf("Not roots can be found")
+        printf("Not roots can be found");
     }
 }
