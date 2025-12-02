@@ -23,9 +23,9 @@ void get(int arr[],int a)
         printf("%d\t",i+1);
         scanf("%d",&arr[i]);
     }
+    max=arr[0];
     for(i=0;i<a;i++)
     {
-        max=arr[0];
         if(arr[i]>max)
         {
             max = arr[i];
